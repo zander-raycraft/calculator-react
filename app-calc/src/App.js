@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from 'react'
 import './App.css';
+import { Helmet } from 'react-helmet'
 
-<title>React Calculator</title>
 function App() {
   
     /*Use State funtion [REACT HOOK]*/
@@ -89,7 +89,12 @@ function App() {
   return (
 
     <div className="App">
-          <body>
+      <Helmet>
+        <title>React Calculator</title>
+      </Helmet>
+      <body>
+      <title>React Calculator</title>
+
         <div class="calc-container">
             {text&& <div class="text-container">
                 <p> { text } </p>
