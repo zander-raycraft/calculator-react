@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import './App.css';
 
+<title>React Calculator</title>
 function App() {
   
     /*Use State funtion [REACT HOOK]*/
